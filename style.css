@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
+
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.hide {
+    display: none;
+}
+
+main {
+    background: #FFFFFF;
+    padding: 4.8rem 6.4rem;
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.8);
+    border-radius: .5rem;
+
+    width: min(42.8rem, 90%);
+    margin: 0 auto;
+
+    margin-top: -12rem;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 60rem;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+
+    color: #34355B;
+
+    text-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    margin-bottom: 1.6rem;
+}
+
+p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 40rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+
+    color: #34355B;
+
+    text-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    justify-content: center;
+
+}
+
+button:hover {
+    background-color: #42429c;
+}
+
+button {
+
+
+    background: #7879F1;
+    border-radius: 0px 4px 4px 0px;
+    font-family: "DM Sans", "sans-serif";
+    color: white;
+    font-weight: bold;
+    border-radius: 0 .4rem .4rem 0;
+    cursor: pointer;
+    transition: background .3s;
+
+
+
+}
+
+form {
+    margin-top: 4.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input,
+button {
+    border: none;
+    padding: 1.6rem;
+
+
+}
+
+input {
+    background-color: #DCE2E9;
+    width: 6rem;
+    border-radius: .4rem 0 0 .4rem;
+}
+
+/* screen2 */
+
+h2 {
+    font-size: 2.4rem;
+    font-weight: normal;
+    font-family: "DM Sans";
+
+    text-align: center;
+    margin-bottom: 3.3rem;
+
+}
+
+
+.screen2 button {
+    border-radius: .4rem;
+    display: flex;
+    align-items: column;
+    
+}
